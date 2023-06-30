@@ -1,0 +1,374 @@
+body {
+    background-color: azure;
+    margin: 0px 0px 0px 0px;
+    font-family: ubuntu;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    display: inline-block;
+}
+
+p {
+    color: #40514E;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 6px;
+    border-color: #a0d6d7;
+    width: 4%;
+    position: relative;
+}
+
+.sthr {
+    top: 90px;
+}
+
+.ndhr {
+    top: 90px;
+}
+
+
+
+
+.navbar {
+    position: fixed;
+    background-color: #2aabbc;
+    top: 0px;
+    width: 100%;
+    height: 43px;
+    z-index: 10;
+}
+
+.navbarbtn {
+    height: 43px;
+    border-style: none solid;
+    border-right-color: rgba(21, 142, 182, 0.658);
+    border-left-color: rgba(21, 142, 182, 0.658);
+    border-width: 2px;
+    background-color: #2aabbc;
+    font-family: ubuntu;
+}
+
+.navbartextcolor {
+    color: #52EBFF;
+}
+
+.navbarbtn:hover {
+    background-color: rgba(250, 235, 215, 0.311);
+}
+
+.profile {
+    position: relative;
+    top: 110px;
+    margin: auto auto 100px;
+    width: 40%;
+}
+
+.skills,
+.contact-me {
+    position: relative;
+    top: 80px;
+}
+.skills {
+    padding-top: 20px;
+}
+
+.contact-me {
+    width: 40%;
+    margin: auto;
+}
+
+.tarekpic {
+    width: 30%;
+    height: auto;
+    border-radius: 100%;
+}
+
+.contact-paragraph {
+    margin-bottom: 50px;
+}
+
+.html5pic,
+.csspic,
+.jspic {
+    width: 25%;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+    padding: 8px 0px;
+}
+
+.csspic {
+    float: right;
+    padding: 8px 0px;
+}
+
+
+.CSStext {
+    position: relative;
+    bottom: 0px;
+}
+
+.top-container {
+    position: relative;
+    padding-top: 123px;
+    bottom: 43px;
+    height: 948;
+    margin-top: 0px;
+    height: 759px;
+    margin-bottom: 20px;
+    background-color: #EAF6F6;
+}
+
+.txt {
+    position: relative;
+    top: 10px;
+    line-height: 2rem;
+    z-index: 5;
+}
+
+.texth1 {
+    font-size: 6rem;
+    font-family: Dancing Script;
+}
+
+.texth2 {
+    position: relative;
+    bottom: 4px;
+}
+
+h2 {
+    font-size: 2.3rem;
+}
+
+.h,
+h2 {
+    color: #66BFBF;
+}
+
+.snow {
+    position: absolute;
+    width: 150px;
+    height: auto;
+}
+
+
+
+.cloud {
+    position: absolute;
+}
+
+.cloud1 {
+    top: 250px;
+    left: 330px;
+
+}
+
+.snow1 {
+    top: 298px;
+    left: 330px;
+}
+
+.cloud2 {
+    left: 500px;
+    top: 280px;
+}
+
+.snow2 {
+    left: 500px;
+    top: 328px;
+}
+
+.cloud3 {
+    right: 415px;
+    top: 490px;
+}
+
+.snow3 {
+    right: 415px;
+    top: 538px;
+}
+
+
+.cloud4 {
+    right: 580px;
+    top: 510px;
+
+}
+
+.snow4 {
+    right: 580px;
+    top: 558px;
+}
+
+.cloud5 {
+    right: 60px;
+    top: 440px;
+
+}
+
+.snow5 {
+    right: 60px;
+    top: 488px;
+}
+
+.stclouds {
+    position: absolute;
+    top: 120px;
+    left: 0px;
+}
+
+.ndclouds {
+    position: absolute;
+    right: 0px;
+    top: 120px;
+}
+
+.mountain {
+    position: relative;
+    bottom: 320px;
+    width: 100%;
+}
+
+.middle-container {
+    position: relative;
+    top: 20px;
+    margin: 0px;
+}
+
+.skills {
+    position: relative;
+
+}
+
+.skillsseconddiv {
+    position: relative;
+    top: 30px;
+}
+
+.contact-me {
+    position: relative;
+    top: 150px;
+}
+
+.a1,
+.a2,
+.a3 {
+    text-decoration: none;
+}
+
+.skilltitle,
+.btn,
+h3 {
+    color: #11999E;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+
+.skill-row {
+    width: 55%;
+    margin: 100px auto;
+}
+
+.HTML5text,
+.CSStext,
+.JStext {
+    text-align: left;
+}
+
+.skill-description {
+    line-height: 2rem;
+}
+
+.lastbtn {
+    background: #32e8fc;
+    background-image: -webkit-linear-gradient(top, #32e8fc, #2aabbc);
+    background-image: -moz-linear-gradient(top, #32e8fc, #2aabbc);
+    background-image: -ms-linear-gradient(top, #32e8fc, #2aabbc);
+    background-image: -o-linear-gradient(top, #32e8fc, #2aabbc);
+    background-image: linear-gradient(to bottom, #32e8fc, #2aabbc);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 29px;
+    padding: 8px 14px 8px 14px;
+    text-decoration: none;
+}
+
+.lastbtn:hover {
+    background: #256b94;
+    background-image: -webkit-linear-gradient(top, #256b94, #2aabbc);
+    background-image: -moz-linear-gradient(top, #256b94, #2aabbc);
+    background-image: -ms-linear-gradient(top, #256b94, #2aabbc);
+    background-image: -o-linear-gradient(top, #256b94, #2aabbc);
+    background-image: linear-gradient(to bottom, #256b94, #2aabbc);
+    text-decoration: none;
+}
+
+.last-container {
+    height: 150px;
+    margin-top: 200px;
+    background-color: #2aabbc;
+}
+
+.contact-links {
+    width: 30%;
+    height:120px;
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    left: 108.5px;
+    top: 15px;
+}
+
+.h11,
+.h22,
+.h33 {
+    color: #52EBFF;
+}
+
+.d1 {
+    float: left;
+}
+
+.d3 {
+    float: right;
+    position: relative;
+    bottom: 68.5px;
+}
+
+.d2 {
+    position: relative;
+width:5%;
+    right: 0px;
+}
+
+.contact-text {
+    display: inline-block;
+    position: relative;
+    top: 60px;
+    right: 214px;
+    color: #EAF6F6;
+    font-size: 0.85rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.d1,
+.d2,
+.d3 {
+    width:23%;
+    margin:auto;
+}
+
+.dd:hover {
+    color:antiquewhite;
+}
